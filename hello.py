@@ -5,3 +5,4 @@ umar = 25
 
 print(naam)
 print(umar)
+# yeh mera commit practice hn 
