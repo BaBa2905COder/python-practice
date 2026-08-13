@@ -21,7 +21,7 @@ print("Agle saal aap", agle_saal, "ke honge")
 print("Pichle saal aap", pichle_saal, "ke the")
 
 a = 10
-b = 13
+b = 32
 
 print(a + b)   # jod (addition) → 13
 print(a - b)   # ghatana (subtraction) → 7
