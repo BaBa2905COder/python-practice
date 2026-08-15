@@ -10,27 +10,35 @@ cursor.execute(
 
 #data dal gay hn 
 
-cursor.execute(
-    "INSERT INTO student (id, name, age, city) VALUES (101, 'Shahil', 25, 'Ludhiana')"
-)
+#cursor.execute(
+ #   "INSERT INTO student (id, name, age, city) VALUES (101, 'Shahil', 25, 'Ludhiana')"
+#)
 
 # Naya student add kiya - YAHAN
-cursor.execute(
-    "INSERT INTO student (id, name, age, city) VALUES (102, 'Anjali', 23, 'Delhi')"
-)
+#cursor.execute(
+ #   "INSERT INTO student (id, name, age, city) VALUES (102, 'Anjali', 23, 'Delhi')"
+#)
 
 # ek Naya student add kiya - YAHAN
-cursor.execute(
-    "INSERT INTO student (id, name, age, city) VALUES (103, 'Sanskar', 22, 'Kanpur')"
-)
+#cursor.execute(
+#    "INSERT INTO student (id, name, age, city) VALUES (103, 'Sanskar', 22, 'Kanpur')"
+#)
 
-connection.commit()
+#connection.commit()
 
 # Ab data ko dikhao
 
 cursor.execute("SELECT * FROM student")
 
+#SELECT * FROM student WHERE city = 'Delhi';
+
+
+#cursor.execute(" SELECT * FROM student WHERE city = 'Delhi'")
+
+cursor.execute("SELECT * FROM student WHERE age = 25")
+
 result = cursor.fetchall()
+
 
 print(result)
 
